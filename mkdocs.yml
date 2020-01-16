@@ -5,7 +5,7 @@ theme:
 
 nav:
   - Home: 'index.md'
-  
+
 extra_css:
   - dark_theme.css
 
@@ -18,7 +18,7 @@ plugins:
 markdown_extensions:
   - admonition
   - markdown_include.include:
-      base_path: docs
+      base_path: .
   - pymdownx.tilde
   - admonition
   - tables
