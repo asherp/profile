@@ -1,0 +1,21 @@
+developer:
+  languages:
+    - python
+    - fortran
+    - c++
+  frameworks:
+    - flask
+    - django
+    - plotly dash
+
+scientist:
+  - physics
+  - astronomy
+  - space weather
+  - plasma physics
+  - magnetohydrodynamics
+
+entrepreneur:
+  - ariagora
+  - hourly
+  - hydragen

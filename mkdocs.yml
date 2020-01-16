@@ -1,0 +1,31 @@
+site_name: Asher Pembroke, PhD
+
+theme:
+  name: 'material'
+
+nav:
+  - Home: 'index.md'
+  
+extra_css:
+  - dark_theme.css
+
+dev_addr: 127.0.0.1:8050
+
+plugins:
+    - search
+    # - mknotebooks:
+    #     execute: true
+markdown_extensions:
+  - admonition
+  - markdown_include.include:
+      base_path: docs
+  - pymdownx.tilde
+  - admonition
+  - tables
+  # - mdx_math:
+  #     enable_dollar_delimiter: True 
+  - toc:
+      permalink: true
+
+# extra_javascript: 
+#     - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
