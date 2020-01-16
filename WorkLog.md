@@ -1,3 +1,4 @@
+* added hourly as a submodule
 * docs on how to deploy with mkdocs onto github.io
 * testing emoji ⌛
 * ignoring hourly files

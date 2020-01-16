@@ -1,0 +1,3 @@
+[submodule "hourly"]
+	path = hourly
+	url = https://github.com/asherp/hourly.git
